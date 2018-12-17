@@ -1,4 +1,4 @@
-class Ruler {
+export class Ruler {
     constructor(agression, wisdom, name) {
         this.agression = agression;
         this.wisdom = wisdom;
@@ -19,3 +19,4 @@ class Ruler {
  
 
 }
+
