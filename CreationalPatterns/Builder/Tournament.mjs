@@ -8,6 +8,6 @@ export class Tournament {
         this.name=name;
         this.Events = [];
         this.Prizes = [];
-        this.Attendies = [];
+        this.Attendees = [];
     }
 } 
