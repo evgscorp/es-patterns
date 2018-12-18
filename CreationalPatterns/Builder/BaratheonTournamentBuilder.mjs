@@ -9,8 +9,8 @@ export class BaratheonTournamentBuilder extends AbstractBuilder {
         let tournament = new Tournament("BaratheonTournament");
         tournament.Events.push(new TournamentEvent("Joust"));
         tournament.Events.push(new TournamentEvent("Melee"));
-        tournament.attendees.push(new Attendee("Stannis"));
-        tournament.attendees.push(new Attendee("Robert"));
+        tournament.Attendees.push(new Attendee("Stannis"));
+        tournament.Attendees.push(new Attendee("Robert"));
         return tournament;
     }
 }

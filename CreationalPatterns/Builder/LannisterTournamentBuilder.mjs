@@ -9,9 +9,9 @@ export class LannisterTournamentBuilder extends AbstractBuilder {
         let tournament = new Tournament("Lannister Tournament");
         tournament.Events.push(new TournamentEvent("Joust"));
         tournament.Events.push(new TournamentEvent("Melee"));
-        tournament.attendees.push(new Attendee("Jamie"));
-        tournament.prizes.push(new Prize("Gold"));
-        tournament.prizes.push(new Prize("More Gold"));
+        tournament.Attendees.push(new Attendee("Jamie"));
+        tournament.Prizes.push(new Prize("Gold"));
+        tournament.Prizes.push(new Prize("More Gold"));
         return tournament;
     }
 }
