@@ -1,1 +1,1 @@
-# es-patterns
+# My patterns implementation with ES6+ and Node.js

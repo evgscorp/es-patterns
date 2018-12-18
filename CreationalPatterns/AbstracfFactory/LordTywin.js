@@ -1,5 +1,5 @@
-import {Ruler} from 'Ruler.js';
-class LordTywin extends Ruler {
+import {Ruler} from 'AbstractRuler.js';
+export class LordTywin extends Ruler {
     constructor() {
         super(2, 10, 'Lord Tywin');
     }

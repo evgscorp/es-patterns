@@ -1,4 +1,4 @@
-export class Ruler {
+export class AbstractRuler {
      /**
      * @param {number} agression
      * @param {number} wisdom
