@@ -1,10 +1,10 @@
 export class Attendee  {
     /**
      *Creates an instance of Attendee 
-     * @param {string} $name
+     * @param {string} name
      * @memberof Attendee 
      */
-    constructor($name){
+    constructor(name){
         this.name=name;
     }
 } 
