@@ -7,5 +7,7 @@ export class Tournament {
     constructor($name){
         this.name=name;
         this.Events = [];
+        this.Prizes = [];
+        this.Attendies = [];
     }
 } 
