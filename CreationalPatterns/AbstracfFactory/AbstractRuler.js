@@ -14,16 +14,16 @@ export class AbstractRuler {
      */
     makeDecision(){
        if ((Number.parseInt(this.agression)-Number.parseInt(this.wisdom)-1)>0){
-          return "kill!";  
-       } else return "let out!"
+          return `${this.name}: kill!`;  
+       } else return `${this.name}: let him out!`;
     }
      /**
      * @return {string}
      */
     marry(){
         if ((Number.parseInt(this.agression)-Number.parseInt(this.wisdom)-1)>0){
-           return "never!";  
-        } else return "soon!"
+           return `${this.name}: never!`;  
+        } else return `${this.name}: soon!`
      }
  
 
