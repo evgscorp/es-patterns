@@ -12,12 +12,13 @@ export class CourtSession {
     /**
      * @param {number} cLevel
      * @memberof CourtSession
+     * @returns {string} 
      */
     complaintPresented(cLevel) {
         if (cLevel < this.COMPLAINT_THRESHOLD) {
-            this.aRulerFactory.getHandOfTheKing().makeDecision();
+           return this.aRulerFactory.getHandOfTheKing().makeDecision();
         } else {
-            this.aRulerFactory.getKing().makeDecision();
+           return this.aRulerFactory.getKing().makeDecision();
         }
     }
 }
