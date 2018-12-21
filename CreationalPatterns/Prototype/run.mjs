@@ -7,3 +7,5 @@ jamie.charm = 6;
 jamie.wealth = 10;
 let tyrion = jamie.Clone();
 tyrion.charm = 10;
+console.log(jamie);
+console.log(tyrion);
