@@ -1,8 +1,8 @@
 import {Archer} from './Archer.mjs';
 import {AbstractAdapter} from './AbstractAdapter.mjs';
 export class ArcherAdapter extends AbstractAdapter{
-    constructor(){
-        super();
+    constructor(name){
+        super(name);
         this._warrior= new Archer();
     }
 

@@ -1,8 +1,8 @@
 import {MeleeWarrior} from './MeleeWarrior.mjs';
 import {AbstractAdapter} from './AbstractAdapter.mjs';
 export class MeleeWarriorAdapter extends AbstractAdapter{
-    constructor(){
-        super();
+    constructor(name){
+        super(name);
         this._warrior= new MeleeWarrior();
     }
 
