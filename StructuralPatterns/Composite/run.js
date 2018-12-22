@@ -14,5 +14,5 @@ const Dish = require('./Dish');
    pizza.AddIngredient(tomato);
    pizza.AddIngredient(cheese);
    pizza.AddIngredient(spice);
-   console.log(`A serving of ${pizza.name} contains:`);
+   console.log(`A serving of ${pizza.getName()} contains:`);
    console.log(pizza.GetCalories() + " calories");
