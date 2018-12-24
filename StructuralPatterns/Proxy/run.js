@@ -1,0 +1,10 @@
+'use strict';
+const ProxyCalc = require('./ProxyCalc');
+var calc = new ProxyCalc();
+console.log(calc.calculateNumberNeeded(460, 'liter'));
+console.log(calc.calculateNumberNeeded(460, 'liter'));
+console.log(calc.calculateNumberNeeded(460, 'pint'));
+console.log(calc.calculateNumberNeeded(460, 'pint'));
+console.log(calc.calculateNumberNeeded(460, 'quart'));
+console.log(calc.calculateNumberNeeded(460, 'quart'));
+console.log(calc.calculateNumberNeeded(460, 'Quart'));
