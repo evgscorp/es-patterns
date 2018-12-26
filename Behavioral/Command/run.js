@@ -1,14 +1,13 @@
 'use strict';
-const SouthCavalry = require('./SouthCavalry');
-const SendTroops = require('./SendTroops');
-const GetTroopsBack = require('./GetTroopsBack');
+const SouthCavalry = require('../Command/SouthCavalry');
+const SendTroops = require('../Command/SendTroops');
+const GetTroopsBack = require('../Command/GetTroopsBack');
+const Invoker = require('./Invoker');
 
-var test ={commands:[]};
-test.SouthCavalry = new SouthCavalry();
-test.commands.push(new SendTroops(test.SouthCavalry, 50, "North"));
-test.commands.push(new GetTroopsBack(test.SouthCavalry, 30, "North"));
-test.commands.push(new SendTroops(test.SouthCavalry, 20, "Red Castle"));
 
-for (const command of test.commands) {
-    command.Execute();
-}
+const troopsInvoker = new Invoker();
+const southCavalry = new SouthCavalry();
+troopsInvoker.commands.push(new SendTroops(southCavalry, 50, "North"));
+troopsInvoker.commands.push(new GetTroopsBack(southCavalry, 30, "North"));
+troopsInvoker.commands.push(new SendTroops(southCavalry, 20, "Red Castle"));
+troopsInvoker.runTroops();
