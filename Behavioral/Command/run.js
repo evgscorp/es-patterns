@@ -1,7 +1,7 @@
 'use strict';
-const SouthCavalry = require('../Command/SouthCavalry');
-const SendTroops = require('../Command/SendTroops');
-const GetTroopsBack = require('../Command/GetTroopsBack');
+const SouthCavalry = require('./SouthCavalry');
+const SendTroops = require('./SendTroops');
+const GetTroopsBack = require('./GetTroopsBack');
 const Invoker = require('./Invoker');
 
 

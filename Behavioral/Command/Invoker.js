@@ -1,5 +1,5 @@
 'use strict';
-const Command = require('../Command/Command.interface');
+const Command = require('./Command.interface');
 
 class Invoker{
     constructor(){
