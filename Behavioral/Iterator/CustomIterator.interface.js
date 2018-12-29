@@ -4,7 +4,7 @@
  */
 class CustomIterator {
     Next(){
-        throw new Error('please implement Nex()');
+        throw new Error('please implement Next()');
     }
 }
 module.exports = CustomIterator;
