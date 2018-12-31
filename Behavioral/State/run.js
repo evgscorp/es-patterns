@@ -1,6 +1,5 @@
 'use strict';
 const IronBankAccount = require('./IronBankAccount');
-const GoodState =  require('./GoodState');
 const tyrionAccount = new IronBankAccount("Tyrion Lannister",1000);
 tyrionAccount.withdraw(500);
 tyrionAccount.withdraw(400);
