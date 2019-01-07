@@ -2,6 +2,6 @@
 ## Howto run
 "npm install"
 
-"npm tsc-build"
+"npm tsc-build" (optional)
 
 "npm run start"
