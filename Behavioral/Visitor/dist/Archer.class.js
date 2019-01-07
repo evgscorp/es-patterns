@@ -1,5 +1,6 @@
 "use strict";
-var Archer = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var Archer = /** @class */ (function () {
     function Archer(name) {
         this.name = name;
     }

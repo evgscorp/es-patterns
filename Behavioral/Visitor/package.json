@@ -4,11 +4,15 @@
   "description": "Visitor Pattern",
   "main": "run.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc-init":"tsc --init",
+    "tsc-build":"tsc",    
+    "start":"node ./dist/run.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript-require": "^0.2.10"
+    "typescript": "^3.2.2"
   }
 }

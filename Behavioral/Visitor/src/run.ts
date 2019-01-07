@@ -1,9 +1,7 @@
-// Initialize ts support
 'use strict';
-require('typescript-require');
-const {Knight} = require("./src/Knight.class.ts");
-const {Archer} = require("./src/Archer.class.ts");
-const {NorthVisitor} = require("./src/NorthVisitor.class.ts");
+import {Knight} from "./Knight.class";
+import{Archer}  from "./Archer.class";
+import{NorthVisitor}  from "./NorthVisitor.class";
 
 
 const firstKnight = new Knight('John');

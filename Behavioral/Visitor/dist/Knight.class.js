@@ -1,5 +1,6 @@
 "use strict";
-var Knight = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var Knight = /** @class */ (function () {
     function Knight(name) {
         this.name = name;
     }

@@ -1,7 +1,8 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Knight_class_1 = require("./Knight.class");
 var Archer_class_1 = require("./Archer.class");
-var NorthVisitor = (function () {
+var NorthVisitor = /** @class */ (function () {
     function NorthVisitor(army, warStatus) {
         if (warStatus === void 0) { warStatus = true; }
         this.army = army;
