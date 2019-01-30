@@ -12,10 +12,14 @@ class Backery {
     takeOrder(order){
         let i = this.orders.findIndex((row)=>row==order);
         if (i>=0){
-            let res = {backery:this.name, order:this.orders[i], oid:i};
+            let res = this.lazyLoad(i);
             this.orders.splice(i,1);
             return res;
         }
+    }
+
+    lazyLoad(i){
+        return {backery:this.name, order:this.orders[i], oid:i};
     }
 
 }
